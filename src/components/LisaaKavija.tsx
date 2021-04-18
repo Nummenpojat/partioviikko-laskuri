@@ -7,13 +7,12 @@ const LisaaKavija = () => {
     const [ylaAulaCount, setYlaAulaCount] = useState(0);
     const [alaAulaCount, setAlaAulaCount] = useState(0);
 
-    
-    const [ylaAulaCountTimes, setYlaAulaCountTimes] = useState([]);
-    const [alaAulaCountTimes, setAlaAulaCountTimes] = useState([]);
 
-    useEffect(() => {
-        
-    })
+    const [ylaAulaCountTimes, setYlaAulaCountTimes] = useState();
+    const [alaAulaCountTimes, setAlaAulaCountTimes] = useState();
+
+    
+
     return (
         <div className="LisaaKavija">
             <button onClick={() => {
