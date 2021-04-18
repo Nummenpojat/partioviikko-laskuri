@@ -5,7 +5,7 @@ import LisaaKavija from './components/LisaaKavija'
 function App() {
   return (
     <div className="App">
-      <LisaaKavija />
+      <LisaaKavija/>
     </div>
   );
 }

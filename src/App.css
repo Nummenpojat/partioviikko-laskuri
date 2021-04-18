@@ -1,9 +1,9 @@
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #253764;
 }
 
@@ -16,14 +16,20 @@ body {
 .LisaaNappi {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+
   margin-top: 150px;
+
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
   height: 100px;
-  width: 200px;
+  width: 300px;
   border-radius: 50px;
   border: none;
 }
+
 
 .Ala-aula {
   background-color: #DA2525;
@@ -32,9 +38,11 @@ body {
 .Yla-aula {
   background-color: #008D37;
 }
+
 button {
   border: none;
   font-size: 22px;
+  font-family: 'Poppins';
   border-radius: 50px;
    background-color: #DA2525;
   color: #FF7364;
