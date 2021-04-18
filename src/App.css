@@ -1,9 +1,9 @@
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #253764;
 }
 
@@ -16,13 +16,23 @@ body {
 .LisaaNappi {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
   margin-top: 100px;
+  margin-bottom: 100px;
   height: 100px;
-  width: 200px;
+  width: 300px;
   border-radius: 50px;
   border: none;
+}
+
+
+.Header {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 500px;
+  width: 500px;
 }
 
 button {
@@ -30,6 +40,7 @@ button {
   background-color: #008D37;
   color: #133713;
   font-size: 22px;
+  font-family: 'Poppins';
   border-radius: 50px;
   
 }
