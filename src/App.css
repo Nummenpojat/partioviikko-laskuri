@@ -3,10 +3,16 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 50px;
   background-color: #253764;
 }
 
+.LisaaKavija {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 .LisaaNappi {
   display: flex;
   flex-direction: column;
@@ -17,7 +23,6 @@ body {
   width: 200px;
   border-radius: 50px;
   border: none;
-  background-color: #008D37;
 }
 
 button {
@@ -25,4 +30,18 @@ button {
   background-color: #008D37;
   color: #133713;
   font-size: 22px;
+  border-radius: 50px;
+  
+}
+button.hover {
+  height: 120px;
+}
+.nappi-red {
+  background-color: #DA2525;
+  color: #FF7364;
+}
+
+.nappi-green {
+  background-color: #008D37;
+  color: #44D537;
 }
