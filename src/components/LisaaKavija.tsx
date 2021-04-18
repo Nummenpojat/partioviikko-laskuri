@@ -15,13 +15,9 @@ const LisaaKavija = () => {
 
     return (
         <div className="LisaaKavija">
-            <button onClick={() => {
-                setYlaAulaCount(ylaAulaCount + 1)
-            }} className="nappi-green"><LisaaNappi name="Ylä-aula" count={ylaAulaCount} paikka="ylä-aula"/></button>
+            <LisaaNappi paikka="Ylä-aula" count={ylaAulaCount}/>
             
-            <button onClick={() => {
-                setAlaAulaCount(alaAulaCount + 1)
-            }} className="nappi-red"><LisaaNappi name="Ala-aula" count={alaAulaCount} paikka="ala-aula"/></button>
+            <LisaaNappi paikka="Ala-aula" count={alaAulaCount}/>
         </div>
     )
 }
