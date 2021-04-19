@@ -26,7 +26,6 @@ const LisaaNappi = (props:any) => {
                 TallennaKavija(props.paikka, new Date());
             }}>
             <h1>{props.paikka}</h1>
-            <h1>{count} kävijää</h1>
             </button>
             
         </div>
