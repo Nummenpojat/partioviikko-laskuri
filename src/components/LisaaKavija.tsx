@@ -11,8 +11,6 @@ const LisaaKavija = () => {
     const [ylaAulaCountTimes, setYlaAulaCountTimes] = useState();
     const [alaAulaCountTimes, setAlaAulaCountTimes] = useState();
 
-    
-
     return (
         <div className="LisaaKavija">
             <LisaaNappi paikka="Ylä-aula" count={ylaAulaCount}/>

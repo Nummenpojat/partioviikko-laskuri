@@ -42,10 +42,10 @@ body {
 button {
   border: none;
   font-size: 22px;
-  font-family: 'Poppins';
+  font-family: 'Ubuntu', Arial;
   border-radius: 50px;
    background-color: #DA2525;
-  color: #FF7364;
+  color: #ffffff;
 }
 button.hover {
   height: 120px;

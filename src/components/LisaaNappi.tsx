@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import React from 'react';
+import TallennaKavija from "../services/TallennaKavija";
 
 
 const LisaaNappi = (props:any) => {
@@ -16,10 +17,13 @@ const LisaaNappi = (props:any) => {
         console.log(kavijaRequest)
     })
 
+
+
     return (
         <div className="LisaaNappi">
             <button onClick={() => {
                 setCount(count + 1)
+                TallennaKavija(props.paikka, new Date());
             }}>
             <h1>{props.paikka}</h1>
             <h1>{count} kävijää</h1>
